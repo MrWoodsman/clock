@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    overflow: hidden;
+    /* margin-top: calc(50vw - 300px); */
+}
+
+#line {
+    width: 280px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.226);
+    z-index: 2;
+    position: absolute;
+    /* top: 26px; */
+    top: 227.5px;
+    left: calc(50vw - 140px);
+}
+
+#main {
+    margin-top: 201.5px;
+    display: flex;
+}
+
+.box {
+    display: flex;
+}
+
+.box ul {
+    list-style: none;
+    padding: 10px;
+    transition: .5s;
+}
+
+.box ul li {
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background: rgb(63, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
