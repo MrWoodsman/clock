@@ -13,12 +13,12 @@ body {
     z-index: 2;
     position: absolute;
     /* top: 26px; */
-    top: 227.5px;
+    top: 307.5px;
     left: calc(50vw - 140px);
 }
 
 #main {
-    margin-top: 201.5px;
+    margin-top: 281.5px;
     display: flex;
 }
 
